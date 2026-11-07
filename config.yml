@@ -1,0 +1,33 @@
+# Заголовок скорборда
+title: "&a&lHEXA&f&lTIME"
+
+# Как часто обновлять (в тиках, 20 = 1 секунда)
+update-interval: 20
+
+# Сколько часов добавить к наигранному (0 = считать с нуля, 1 = начать с 1 часа)
+playtime-start-hours: 0
+
+# Откуда брать ранг: group (название группы LuckPerms) или prefix (префикс LuckPerms)
+rank-source: group
+
+# Красивые названия групп LuckPerms (если группы нет в списке - покажется её имя)
+rank-names:
+  default: "Игрок"
+  helper: "&bХелпер"
+  moder: "&2Модератор"
+  curator: "&6Куратор"
+  admin: "&cАдминистратор"
+
+# Строки скорборда (максимум 15).
+# Плейсхолдеры: %player% %rank% %balance% %hexes% %kills% %deaths% %playtime% %ping%
+lines:
+  - ""
+  - "&fНик: &a%player%"
+  - "&fРанг: &7%rank%"
+  - ""
+  - "&fБаланс: &e%balance%"
+  - "&fГексы: &d%hexes%"
+  - ""
+  - "&fУ/С: &a%kills% &7/ &c%deaths%"
+  - "&fНаиграно: &b%playtime%ч."
+  - "&fВаш пинг: &e%ping%"

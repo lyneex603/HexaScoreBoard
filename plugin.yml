@@ -1,0 +1,14 @@
+name: HexaScoreboard
+main: ru.hexatime.scoreboard.HexaScoreboard
+version: 1.0.0
+api-version: '1.20'
+author: HexaTime
+softdepend: [Vault, Essentials, LuckPerms]
+commands:
+  hexes:
+    description: Баланс гексов (донатная валюта)
+    usage: /hexes [balance|give|take|set] [игрок] [количество]
+permissions:
+  hexatime.admin:
+    description: Управление гексами и перезагрузка конфига
+    default: op
